@@ -146,4 +146,8 @@
   return 0;
 }
 
+- (NSArray *)selectionRectsForRange:(UITextRange *)range {
+    return nil;
+}
+
 @end

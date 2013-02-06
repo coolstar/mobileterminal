@@ -279,8 +279,8 @@
   [self terminalSelectionDidChange:self];
     
     CGRect frame = terminalGroupView.frame;
-    frame.origin.y += 43;
-    frame.size.height -= 43;
+    frame.origin.y += 49;
+    frame.size.height -= 49;
     frame.size.height -= 19;
     terminalGroupView.frame = frame;
     //specialkeys.layer.zPosition = 999999;
