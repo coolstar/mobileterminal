@@ -35,8 +35,6 @@
   inPreferences = FALSE;
 }
 
-static const NSTimeInterval kAnimationDuration = 1.00f;
-
 - (void)preferencesButtonPressed:(UIView *)sender
 {
   inPreferences = TRUE;
